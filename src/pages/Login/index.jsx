@@ -3,7 +3,7 @@ const Login = () => {
   return (
     <div className='wrapper'>
       <div className='login-container'>
-        <h1>MyChat</h1>
+        <h1>myChat</h1>
         <form>
           <input
             type='email'
