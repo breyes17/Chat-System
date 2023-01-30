@@ -1,0 +1,26 @@
+@use '../../scss/theme';
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: theme.$white; 
+
+    .container {
+        width: 80%;
+        height: 80vh;
+        background-color: theme.$purple;
+        display: flex;
+        border-radius: 10px;
+        overflow: hidden;
+
+        .sidebar-container {
+            flex: 1
+        }
+
+        .messages-container {
+            flex: 2
+        }
+    }
+}

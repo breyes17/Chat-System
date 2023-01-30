@@ -1,8 +1,9 @@
 // import Login from './pages/Login'
-import Register from './pages/Register'
+// import Register from './pages/Register'
+import Main from './pages/Main'
 
 function App() {
-  return <Register />
+  return <Main />
 }
 
 export default App

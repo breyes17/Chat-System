@@ -1,0 +1,28 @@
+@use '../../scss/theme';
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    background-color: theme.$vintage;
+    justify-content: space-between;
+    color: theme.$white;
+    padding: .5rem;
+
+    & > span {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img {
+            height: 40px;
+            width: 40px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    }
+}
