@@ -1,6 +1,7 @@
 import Nav from '../../components/Nav'
 import List from '../../components/List'
 import Message from '../../components/Message'
+import Search from '../../components/Search'
 import './style.scss'
 
 const Main = () => {
@@ -9,6 +10,7 @@ const Main = () => {
       <div className='container'>
         <div className='sidebar-container'>
           <Nav />
+          <Search />
           <List />
         </div>
         <div className='messages-container'>

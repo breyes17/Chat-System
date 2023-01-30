@@ -1,0 +1,35 @@
+@use '../../scss/theme';
+
+.list-container {
+    overflow-y: scroll;
+    height: calc(100% - 162px);
+
+    .list {
+        padding: .5rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: theme.$vintage;
+            color: theme.$white;
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+        
+        
+        }
+
+        .user {
+            h3 {
+                margin: 0;
+                font-weight: bold;
+            }
+        }
+    }
+}
